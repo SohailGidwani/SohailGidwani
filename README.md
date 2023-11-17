@@ -1,4 +1,4 @@
----
+
 🚀 Welcome to @SohailGidwani's Universe!
 
 🌟 About Me:
@@ -22,7 +22,6 @@
 
 "Exploring the digital cosmos, one code at a time!"
 
----
 
 <!---
 SohailGidwani/SohailGidwani is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
