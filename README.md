@@ -1,28 +1,32 @@
-🚀 Welcome to @SohailGidwani's Universe!
+**SohailGidwani - Full Stack Developer & AI Enthusiast**
+Welcome to my digital playground!
 
-🌟 About Me:
-- A tech enthusiast who has ventured through the realms of Artificial Intelligence.
-- Proud alumnus of Thadomal Shahani Engineering College (TSEC), with a degree in Computer Engineering.
-- Currently applying my passion for tech and innovation as a Software Developer at IIFL Finance Limited.
+I'm a passionate software developer with a strong foundation in computer engineering and a deep fascination with Artificial Intelligence. Constantly learning and pushing the boundaries of tech, I thrive in environments that allow me to leverage my skills in web development, machine learning, and cloud technologies.
 
-🛠️ My Toolbox:
-- [List some of your preferred programming languages, frameworks, and tools here.]
-- Continually expanding my skills and exploring new technological frontiers.
+Currently
 
-🌱 Growth Trajectory:
-- My journey has evolved from a curious student to a professional developer, focusing on lifelong learning and skill enhancement.
-- Eager to collaborate on projects that push the envelope in AI and software development.
+I'm a Software Developer at IIFL Finance Limited, where I get to apply my tech expertise to solve real-world problems in the financial domain.
+My Arsenal
 
-💡 Fun Fact:
-- When I'm not coding, you can find me perfecting my strokes in the swimming pool or unwinding with a good movie. These activities recharge me and fuel my creativity in the tech world.
+Programming Languages: Java, C++, Python (including libraries like NumPy, Pandas, Matplotlib), JavaScript (ES6+)
+Web Development Frameworks: React, Flask, Django, Node.js (Express.js)
+Machine Learning/AI: TensorFlow, PyTorch (familiarity with other frameworks is a plus)
+DevOps & Cloud: Docker, AWS (S3, EC2, Lambda), Azure ( familiarity with other cloud providers is a plus)
+Additional Skills: ECS & ECR, CDNs, Serverless Deployments, WebRTC, RPC & gRPC
+Always on the Learning Curve
 
-📫 Connect with Me:
-- Let's dive into discussions about tech, AI, or the latest blockbuster! Reach me at sohailgidwani15@gmail.com.
+I'm a firm believer in lifelong learning and constantly strive to expand my knowledge base. I actively participate in online courses, hackathons, and open-source projects to stay updated with the latest advancements in the tech industry.
 
-"Exploring the digital cosmos, one code at a time!"
+Looking to Collaborate?
 
+Are you working on a project that pushes the envelope in AI or software development? I'm always eager to collaborate with like-minded individuals who share my passion for building innovative solutions. Feel free to reach out and let's discuss how we can make something remarkable together!
 
-<!---
-SohailGidwani/SohailGidwani is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Get in Touch
+
+Email: sohailgidwani15@gmail.com
+Let's connect on LinkedIn: https://ae.linkedin.com/in/suhail-gidwani-b88a6275 (or add your profile URL)
+Beyond the Code
+
+When I'm not coding, you'll find me unwinding with a good movie or hitting the pool for a refreshing swim. These activities help me recharge and bring fresh perspectives to my technical endeavors.
+
+Exploring the digital cosmos, one line of code at a time!
