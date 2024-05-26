@@ -24,7 +24,7 @@ Are you working on a project that pushes the envelope in AI or software developm
 Get in Touch
 
 Email: sohailgidwani15@gmail.com
-Let's connect on LinkedIn: https://ae.linkedin.com/in/suhail-gidwani-b88a6275 (or add your profile URL)
+Let's connect on LinkedIn: https://www.linkedin.com/in/sohail-gidwani/
 Beyond the Code
 
 When I'm not coding, you'll find me unwinding with a good movie or hitting the pool for a refreshing swim. These activities help me recharge and bring fresh perspectives to my technical endeavors.
