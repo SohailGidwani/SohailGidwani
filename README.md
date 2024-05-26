@@ -11,7 +11,7 @@ I'm a passionate software developer with a strong foundation in computer enginee
 **My Tech Stack**
 
   * **Languages:** Java, C++, Python (NumPy, Pandas, Matplotlib), JavaScript (ES6+)
-  * **Web Dev:** React, Flask, Django, Node.js (Express.js)
+  * **Web Dev:** React, Flask, Django, Node.js (Express.js), HONO, Tailwind, Typescript
   * **Machine Learning/AI:** TensorFlow, PyTorch (Open to exploring more!)
   * **DevOps & Cloud:** Docker, AWS (S3, EC2, Lambda), Azure (Multi-cloud friendly!)
   * **Bonus Skills:**  ECS & ECR, CDNs, Serverless Deployments, WebRTC, RPC & gRPC
