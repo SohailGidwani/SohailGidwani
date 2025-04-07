@@ -1,124 +1,236 @@
-<h1 align="center">👋 Hello, I'm Sohail Gidwani</h1>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,19,22,27&height=180&section=header&text=SOHAIL%20GIDWANI&fontSize=60&fontAlignY=35&animation=fadeIn&fontColor=ffffff" alt="header" />
+</div>
 
-<p align="center">
-  <em>Welcome to my digital playground!</em>
-</p>
+<h3 align="center">
+  <a href="https://portfolio-sohail-gidwanis-projects.vercel.app/">
+    <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-0070f3?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+</h3>
 
----
+<div align="center">
+  <a href="mailto:sohailgidwani15@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/sohail-gidwani/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/SohailGidwani"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</div>
 
-### 🎯 **Currently**
+<br />
 
-- **Role:** Software Developer at IIFL Finance Limited
-- **Focus:** Building AI-powered solutions and enhancing internal processes within the financial domain
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SohailGidwani&show_icons=true&theme=react&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SohailGidwani&theme=react&hide_border=true&background=0D1117" alt="GitHub Streak" />
+</div>
 
----
+## 👨‍💻 About Me
 
-### 🛠️ **Tech Stack**
+> Software Developer at IIFL Finance Limited, focused on building AI-powered solutions and enhancing internal processes within the financial domain.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white" alt="Keras" />
-  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white" alt="Scikit Learn" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/VectorDB-purple?style=flat&logo=qdrant&logoColor=white" alt="VectorDB" />
-  <img src="https://img.shields.io/badge/Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux" />
-</p>
+I'm passionate about leveraging cutting-edge technology to solve real-world problems. With expertise in both software development and artificial intelligence, I create solutions that drive meaningful impact in the financial sector.
 
----
+<img align="right" width="400" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/assets/coding.gif" alt="Coding GIF" />
 
-### 🌟 **Highlighted Projects**
+- 🔭 I'm currently working on **AI-powered financial solutions**
+- 🌱 I'm currently exploring **Large Language Models and RAG systems**
+- 👨‍💻 Check out my portfolio: [portfolio-sohail-gidwanis-projects.vercel.app](https://portfolio-sohail-gidwanis-projects.vercel.app/)
+- 💬 Ask me about **AI, React, Next.js, Python, and Financial Tech**
+- ⚡ Fun fact: **I'm a die-hard Iron Man fan and love swimming**
+
+<br clear="right"/>
+
+## 🛠️ Tech Stack
+
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="Java" width="65" height="65" />
+      <br>Java
+    </td>
+    <td align="center" width="96">
+      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="C++" width="65" height="65" />
+      <br>C++
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
+      <br>Next.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express" />
+      <br>Express
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" />
+      <br>FastAPI
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=flask" width="48" height="48" alt="Flask" />
+      <br>Flask
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
+      <br>Tailwind
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" />
+      <br>TensorFlow
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" />
+      <br>PyTorch
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+      <br>MySQL
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
+      <br>PostgreSQL
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB" />
+      <br>MongoDB
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+      <br>Docker
+    </td>
+  </tr>
+</table>
+
+## 🌟 Featured Projects
 
 <details>
-  <summary><strong>🔍 Custom Data Chatbots (RAG)</strong></summary>
-  <ul>
-    <li>Built an internal employee support chatbot using NLP, Python, and Flask.</li>
-    <li>Integrated with Qdrant vector database, Azure OpenAI service, and Zoho ticketing system.</li>
-    <li><strong>Result:</strong> Significant reduction in support tickets and streamlined internal processes.</li>
-  </ul>
+  <summary><b>🔍 AskPandAI - RAG Chatbot for Employee Support</b></summary>
+  <br />
+  <p>
+    <img align="right" width="300" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/assets/chatbot.gif" alt="Chatbot Demo" />
+    
+    • Built an internal employee support chatbot using NLP, Python, and Flask
+    • Integrated with Qdrant vector database, Azure OpenAI service, and Zoho ticketing system
+    • Implemented Retrieval Augmented Generation (RAG) for accurate, context-aware responses
+    • Result: Significant reduction in support tickets and streamlined internal processes
+    • Received Certificate of Achievement at IIFL for this project
+  </p>
+  <br clear="right"/>
 </details>
 
 <details>
-  <summary><strong>💰 Gold Loan Image Audit App</strong></summary>
-  <ul>
-    <li>Engineered an AI-powered application using models like GroundingDino and Swin-Transformer.</li>
-    <li><strong>Impact:</strong> Enhanced fraud detection and reduced potential loan fraud by 15%.</li>
-  </ul>
+  <summary><b>💰 Gold Loan Image Audit App</b></summary>
+  <br />
+  <p>
+    <img align="right" width="300" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/assets/gold-audit.gif" alt="Gold Audit Demo" />
+    
+    • Engineered an AI-powered application using models like GroundingDino and Swin-Transformer
+    • Developed a robust image processing pipeline for gold jewelry authentication
+    • Implemented a user-friendly interface for loan officers to verify jewelry items
+    • Impact: Enhanced fraud detection and reduced potential loan fraud by 15%
+  </p>
+  <br clear="right"/>
 </details>
 
 <details>
-  <summary><strong>📸 Image Feature Detection & Captioning</strong></summary>
-  <ul>
-    <li>Implemented CNN and VGG-16 models for image feature extraction and LSTM/Transformer models for caption generation.</li>
-    <li>Created a user-friendly web interface using Streamlit.</li>
-  </ul>
+  <summary><b>📸 Image Feature Detection & Captioning</b></summary>
+  <br />
+  <p>
+    • Implemented CNN and VGG-16 models for image feature extraction
+    • Utilized LSTM/Transformer models for generating accurate image captions
+    • Created a user-friendly web interface using Streamlit
+    • Achieved high accuracy in identifying objects and generating relevant descriptions
+  </p>
 </details>
 
 <details>
-  <summary><strong>✍️ ScribeGlobe (Medium-like Blogging Site)</strong></summary>
-  <ul>
-    <li>Built with React.js and Vite for a responsive user experience.</li>
-    <li>Developed a serverless backend using Hono on Cloudflare Workers.</li>
-  </ul>
+  <summary><b>✍️ ScribeGlobe (Medium-like Blogging Site)</b></summary>
+  <br />
+  <p>
+    • Built with React.js and Vite for a responsive user experience
+    • Developed a serverless backend using Hono on Cloudflare Workers
+    • Implemented a rich text editor with markdown support
+    • Created a clean, intuitive UI for both readers and writers
+  </p>
 </details>
 
----
+## 🏆 Achievements
 
-### 🏆 **Achievements**
+<div align="center">
+  <table>
+    <tr>
+      <td><b>🎯 Event Leadership</b></td>
+      <td>Organized "Blind Code," a sub-event of ASCENT 2022 (ISTE)</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><b>🏅 Competition Success</b></td>
+      <td>Won Tech-A-Thon at IIFL</td>
+    </tr>
+    <tr>
+      <td>Runner-up at Crack The Code (Jai Hind, 2018)</td>
+    </tr>
+    <tr>
+      <td>Participated in Feynwick (KJSIEIT, 2021)</td>
+    </tr>
+    <tr>
+      <td>Participated in Trident (TSEC, 2019)</td>
+    </tr>
+    <tr>
+      <td><b>🎖️ Professional Recognition</b></td>
+      <td>Certificate Of Achievement for AskPandAI (RAG Chatbot for employee support) at IIFL</td>
+    </tr>
+  </table>
+</div>
 
-- **Tech-A-Thon Winner** at IIFL
-- **Runner-up** at Crack The Code (Jai Hind, 2018)
-- **Event Leadership:** Organized "Blind Code," a sub-event of ASCENT 2022 (ISTE)
+## 📊 GitHub Activity
 
----
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SohailGidwani&theme=github_dark" alt="GitHub Activity Graph" />
+</div>
 
-### 🎬 **Beyond the Code**
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SohailGidwani&theme=react-dark&hide_border=true" alt="GitHub Activity Graph" width="100%" />
+</div>
 
-When I'm not coding, you'll find me unwinding with a good movie or hitting the pool for a refreshing swim. I'm a die-hard Iron Man fan, inspired by his principles and outlook on life. I always keep backups of backups and thrive in both independent and team environments.
+## 🎬 Beyond the Code
 
----
+When I'm not coding, you'll find me:
+- 🎬 Unwinding with a good movie
+- 🏊‍♂️ Hitting the pool for a refreshing swim
+- ⚡ Being a die-hard Iron Man fan, inspired by his principles and outlook on life
+- 🔄 Keeping backups of backups (you can never be too careful!)
+- 👥 Thriving in both independent and team environments
 
-### 🤝 **Let's Collaborate!**
+## 🤝 Let's Collaborate!
 
 Are you working on an innovative project in AI or software development? I'm always eager to collaborate with like-minded individuals. Feel free to reach out, and let's create something remarkable together!
 
----
-
-### 📬 **Get in Touch**
-
-<p align="center">
-  <a href="mailto:sohailgidwani15@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/sohail-gidwani/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/SohailGidwani">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://sohailgidwani.github.io/Prof_Portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=about-dot-me&logoColor=white" alt="Portfolio" />
-  </a>
-</p>
-
-<p align="center">
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=SohailGidwani&color=0070f3&style=for-the-badge" alt="Profile Views" />
+  <br><br>
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love" />
-  <img src="https://forthebadge.com/images/badges/made-with-python.svg" alt="Made with Python" />
-  <img src="https://forthebadge.com/images/badges/uses-git.svg" alt="Uses Git" />
-</p>
- 
+  <img src="https://forthebadge.com/images/badges/powered-by-coffee.svg" alt="Powered by Coffee" />
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,19,22,27&height=120&section=footer" alt="footer" />
+</div>
