@@ -23,7 +23,7 @@
 
 ## 👨‍💻 About Me
 
-> Software Developer at IIFL Finance Limited, focused on building AI-powered solutions and enhancing internal processes within the financial domain.
+> Software Developer, focused on building AI-powered solutions.
 
 I'm passionate about leveraging cutting-edge technology to solve real-world problems. With expertise in both software development and artificial intelligence, I create solutions that drive meaningful impact in the financial sector.
 
