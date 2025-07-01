@@ -18,7 +18,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SohailGidwani&show_icons=true&theme=react&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SohailGidwani&theme=react&hide_border=true&background=0D1117" alt="GitHub Streak" />
+<!--   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SohailGidwani&theme=react&hide_border=true&background=0D1117" alt="GitHub Streak" /> -->
 </div>
 
 ## 👨‍💻 About Me
