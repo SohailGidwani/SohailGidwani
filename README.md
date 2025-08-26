@@ -3,7 +3,7 @@
 </div>
 
 <h3 align="center">
-  <a href="sohailgidwani.app">
+  <a href="[sohailgidwani.app](https://sohailgidwani.app/)">
     <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-0070f3?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
 </h3>
