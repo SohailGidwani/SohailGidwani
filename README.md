@@ -31,7 +31,7 @@ I'm passionate about leveraging cutting-edge technology to solve real-world prob
 
 - 🔭 I'm currently working on **AI-powered financial solutions**
 - 🌱 I'm currently exploring **Large Language Models and RAG systems**
-- 👨‍💻 Check out my portfolio: [portfolio-sohail-gidwanis-projects.vercel.app](https://portfolio-sohail-gidwanis-projects.vercel.app/)
+- 👨‍💻 Check out my portfolio: [https://sohailgidwani.app/](https://sohailgidwani.app/)
 - 💬 Ask me about **AI, React, Next.js, Python, and Financial Tech**
 - ⚡ Fun fact: **I'm a die-hard Iron Man fan and love swimming**
 
