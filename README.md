@@ -1,13 +1,15 @@
-<a href="https://sohailgidwani.app">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_dark.svg">
-    <img alt="Sohail Gidwani. Agentic AI/ML Engineer, M.S. Computer Science at USC. Now: Research Assistant at the Keck School of Medicine of USC, building MEMOIR-VLM, a multimodal VLM for Alzheimer's, in review. Proof: 0.933 balanced accuracy CN vs Dementia, 2,363 ADNI subjects, ~70M params; 61.9% strict green across 21 autonomous runs on the Portage agent. Stack: PyTorch, LangGraph, FastAPI, Postgres, pgvector, Docker, Next.js. Open to full-time AI/ML/LLM roles, graduating May 2027, Los Angeles." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_light.svg" width="880">
-  </picture>
-</a>
+<p align="center">
+  <a href="https://sohailgidwani.app">
+    <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_dark.svg">
+          <img alt="Sohail Gidwani. Agentic AI/ML Engineer, M.S. Computer Science at USC, Los Angeles. Now: Research Assistant at the Keck School of Medicine of USC, building MEMOIR-VLM, a multimodal VLM for Alzheimer's, in review. Proof: 0.933 balanced accuracy CN vs Dementia, 0.981 AUC, 2,363 ADNI subjects; 61.9% strict green across 21 autonomous runs on the Portage agent. Stack: PyTorch, LangGraph, FastAPI, Postgres, pgvector, Docker, Next.js. Open to full-time AI/ML/LLM roles, graduating May 2027." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_light.svg" width="880">
+        </picture>
+  </a>
+</p>
 
 <table>
   <tr>
-    <td>
+    <td align="center">
       <a href="https://sohailgidwani.app/research/memoir-vlm-alzheimers-vqa">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-memoir_dark.svg">
@@ -15,7 +17,7 @@
         </picture>
       </a>
     </td>
-    <td>
+    <td align="center">
       <a href="https://sohailgidwani.app/projects/portage">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-portage_dark.svg">
@@ -25,7 +27,7 @@
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       <a href="https://sohailgidwani.app/projects/knowledge-hub">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-knowledge-hub_dark.svg">
@@ -33,7 +35,7 @@
         </picture>
       </a>
     </td>
-    <td>
+    <td align="center">
       <a href="https://sohailgidwani.app/projects/cot-faithfulness">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-cot_dark.svg">
@@ -42,23 +44,53 @@
       </a>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <a href="https://sohailgidwani.app/#experience">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/panel-experience_dark.svg">
+          <img alt="Experience. October 2025 to now: Research Assistant, Keck School of Medicine, USC. May to July 2025: Senior Software Engineer I, Insaito, Inc. June 2023 to May 2025: Full Stack Developer, IIFL Finance Ltd." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/panel-experience_light.svg" width="428">
+        </picture>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://sohailgidwani.app/about">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/panel-credentials_dark.svg">
+          <img alt="Education and wins. 2025 to 2027: M.S. Computer Science, USC, GPA 3.75 of 4.0. 2019 to 2023: B.E. Computer Engineering, Mumbai, CGPA 9.05 of 10. Award: Certificate of Achievement from the CTO, IIFL Finance." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/panel-credentials_light.svg" width="428">
+        </picture>
+      </a>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
-  <a href="https://sohailgidwani.app/projects"><img src="https://img.shields.io/badge/ALL%20PROJECTS-b85c0e?style=for-the-badge&labelColor=1a1918" alt="All projects" /></a>
-  <a href="mailto:sohailgidwani15@gmail.com"><img src="https://img.shields.io/badge/EMAIL-1a1918?style=for-the-badge&labelColor=1a1918" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/sohail-gidwani/"><img src="https://img.shields.io/badge/LINKEDIN-1a1918?style=for-the-badge&labelColor=1a1918" alt="LinkedIn" /></a>
-  <a href="https://sohailgidwani.app/api/mcp"><img src="https://img.shields.io/badge/MCP-1a1918?style=for-the-badge&labelColor=1a1918" alt="MCP server" /></a>
-  <a href="https://sohailgidwani.app/llms.txt"><img src="https://img.shields.io/badge/LLMS.TXT-1a1918?style=for-the-badge&labelColor=1a1918" alt="llms.txt" /></a>
-  <a href="https://sohailgidwani.app/resume.json"><img src="https://img.shields.io/badge/RESUME.JSON-1a1918?style=for-the-badge&labelColor=1a1918" alt="JSON Resume" /></a>
+  <a href="https://sohailgidwani.app/api/mcp">
+    <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/terminal_dark.svg">
+          <img alt="Live terminal. curl -s sohailgidwani.app/api/mcp with method tools/list returns the MCP tool list, including search_projects, which searches portfolio projects by keyword." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/terminal_light.svg" width="880">
+        </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://sohailgidwani.app/projects"><picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-projects_dark.svg"> <img alt="All projects" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-projects_light.svg" width="138"> </picture></a>
+  <a href="mailto:sohailgidwani15@gmail.com"><picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-email_dark.svg"> <img alt="Email Sohail Gidwani" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-email_light.svg" width="138"> </picture></a>
+  <a href="https://www.linkedin.com/in/sohail-gidwani/"><picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-linkedin_dark.svg"> <img alt="LinkedIn" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-linkedin_light.svg" width="138"> </picture></a>
+  <a href="https://sohailgidwani.app/api/mcp"><picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-mcp_dark.svg"> <img alt="MCP server" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-mcp_light.svg" width="138"> </picture></a>
+  <a href="https://sohailgidwani.app/llms.txt"><picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-llms_dark.svg"> <img alt="llms.txt" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-llms_light.svg" width="138"> </picture></a>
+  <a href="https://sohailgidwani.app/resume.json"><picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-resume_dark.svg"> <img alt="JSON Resume" src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/link-resume_light.svg" width="138"> </picture></a>
 </p>
 
 <!--
-  The cards above are SVGs generated by build-cards.mjs and committed to this
-  repo, so nothing here depends on a third-party service staying up. To change
-  what they say, edit the HERO / WORK data at the top of build-cards.mjs and run:
+  Every card above is an SVG generated by build-cards.mjs and committed to this
+  repo, so nothing here depends on a third-party service staying up.
+
+  To change what they say, edit the HERO / WORK / PANELS / TERM / LINKS data at
+  the top of build-cards.mjs and run:
 
       node build-cards.mjs
 
-  JetBrains Mono is embedded in each SVG, subset to only the glyphs used.
+  Fonts are embedded as base64 woff2, subset to only the glyphs each card draws:
+  Syne 800 for the name (matching the portfolio hero), JetBrains Mono elsewhere.
 -->

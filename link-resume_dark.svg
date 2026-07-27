@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="46" viewBox="0 0 138 46" role="img" aria-label="RESUME.JSON">
+<style>
+@font-face{font-family:'JBM';font-weight:700;font-display:block;src:url(data:font/woff2;base64,d09GMgABAAAAAAV4AA8AAAAACmQAAAUgAAI2BAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmA/U1RBVEwAZBEIColQhywBNgIkAyoLKgAEIAWEJgcgGw0ICD4M8GR8p8oQE2JCu8MaStXWCkkUIzr3fTt89QXP05r5/sxump1JjohUESFXJIUgFJEFBbyVrIBkL/Ofl/2K2EmGUptZQkdCJ9z6dv7PNZzOBr5ZlVCB/zes4KRsOzrgO9BugP/50yBze6mVwYaaDSAyMmdSP5PI85Pnizr/wcuuxlZFNBKqWmnEiC/HYraIV20WxVtimP5mUSzEj6LxG+lD7f9QZ5XVjBFicuYFIEAIAFAIQjxJCGDIop6k3n1FKpCJAxAFAAQwlNBJMm+z/MUzkAioZHPZy1Hj1SlcUPuRBoBBcLJMBSU0gAKPi71w5sCeAHCBPHR6pGtsaaniPoMqUS9AHmkIQhAFJJEMFJG8bp4PSQKwYLU9lFSA4JAGf40E1H1Q4wHqO9AISuJC4CrUJl0c11uWyvCbx1FICpBHP3TYyFCjiwIhZ8JHsduuVp6lCeFCgqhjLIJJ/cllAFIBshAg74rn7XMKudsjqEAsL4mglxfKDoUSwunZCcX5eV6sVxksTsvNmWbNRmNUk3I0l55knHhlzZj/5I3oznlrD/RrTOcz+wMVSXugxEb+K+sKMPUVN2P/Mi3qN2sjTIj71VasNhLGKMuM/U/EanFRcSdy7qPsJKubkG0wyZ/khHn1jDm7Lbm7cvW9YqRzLlq547MNZx8HEIpPOeWbc4tPPRkABAoe4ViAgD29a8gZpX+uDkjsHwDsLqP1Aju18expGQtBsYFjSjB8iezmMY8fM7jjCzhQcK3Txl3bHjRpYo765KbkbsvUY7yn5tThlHpOU+zzH0hn2QNJJApv/S/efh8pvT+ufpn1M7DnHjs0vylf8gjUepz5MM7GoDBxVh/M4XpgvJU5GXZDUAKiQqMhyANNpuPtHhgI/ecDF2OJbk4Rm+gJ4QTGIRNmhIqHR+jJQOcfWUI8gxqVT4QlwLB0xf+W7jw/M8gzyyLjfZOwr6nmV8yR2+qOFH9kLBD5k0q1c9uTc8r+CQuWdFfTgdefNBeDAJxf9/26/X1W1vOy19eV/pqPKDfRLWH8rXbdkEvHzvIEEXdMy0eov7/u6ZDadI02FBiGXqx7PCQrTa7VRW7Q43Hmwhgbg8IYHCdxuO5PKZ3Kcf8nwhAGosBoCELDFIgDxP4fi7FEF4tJcgex/NGV82z4F9H0k1wLRP7XAQvRRBuDxws/WdpYxE365qUAfZwgT1AA9HnCJaMIpvxJ1TQUDnMeL97tKcvVZaa4nII1ekZxAhNCwLilJwaNMne3zwSaCk2ZMaakEC1BCPye+wgZMR95QI8XXI+4syd7cDtqFB/Ommzc6xBQ+8R64FxoPLLir/K/1eQjcx9Mvz72oOf6Crej41817zqo9Hrye3qar/EmAE/dFp0AqsW5tP8XS/oHa/0N8OHFtVPv6/vPfi+aq4z6ByGAAkCggkXVeJakC4GqAHCQGo+BFngIQbrrEeEFhxMP8S7D09+s5Q5Upc2WEeQ6AYM30yjAsh+NOB5wHzqVkMUplSLIO5WmhXcqhxIpV7lkCEkZoEg0JgIh2TgX2GISSwt3Py2ObDlOL6LEGMcQfrz4QGgExeCdGlERXDcT7ITAYOva8RNhmMREEW6UZAwBC3DRaYboJDrmo3BIATvNE0IMHSYwwABe/MzfSeCgHydRwgw4G0mB+/W7gmOMu24IFyj62SjYLhEBDIiGw33KE6QNbK7GlSj6GXONLid3xdFC6Rn/TnZCva0TBVHC2HeWAgDRoAAIFwA=) format('woff2')}
+.s{font-family:'JBM',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+text{white-space:pre}
+.lk{font-size:10px;letter-spacing:1.6px;font-weight:700;fill:#8a8980}
+</style>
+<rect x=".75" y=".75" width="136.5" height="44.5" rx="5" fill="#0f0f0e" stroke="#252420" stroke-width="1.5"/>
+<g class="s">
+  <text x="69" y="27" text-anchor="middle" class="lk">RESUME.JSON</text>
+</g>
+</svg>
