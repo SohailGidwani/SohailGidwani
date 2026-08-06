@@ -2,7 +2,7 @@
   <a href="https://sohailgidwani.app">
     <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_dark.svg">
-          <img alt="Sohail Gidwani. Agentic AI/ML Engineer, M.S. Computer Science at USC, Los Angeles. Now: Research Assistant at the Keck School of Medicine of USC, building MEMOIR-VLM, a multimodal VLM for Alzheimer's, in review. Proof: 0.933 balanced accuracy CN vs Dementia, 0.981 AUC, 2,363 ADNI subjects; 61.9% strict green across 21 autonomous runs on the Portage agent. Stack: PyTorch, LangGraph, FastAPI, Postgres, pgvector, Docker, Next.js. Open to full-time AI/ML/LLM roles, graduating May 2027." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_light.svg" width="880">
+          <img alt="Sohail Gidwani. Agentic AI/ML Engineer, M.S. Computer Science at USC, Los Angeles. Now: Research Assistant at the Keck School of Medicine of USC, building MEMOIR-VLM, a multimodal VLM for Alzheimer's, in review. Proof: 0.933 balanced accuracy CN vs Dementia, 0.981 AUC, 2,363 ADNI subjects; on the Portage agent, 10 of 10 on its K=5 development gates and 0 of 9 on a frozen held-out set, published side by side. Stack: PyTorch, LangGraph, FastAPI, Postgres, pgvector, Docker, Next.js. Open to full-time AI/ML/LLM roles, graduating May 2027." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_light.svg" width="880">
         </picture>
   </a>
 </p>
@@ -21,7 +21,7 @@
       <a href="https://sohailgidwani.app/projects/portage">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-portage_dark.svg">
-          <img alt="Portage, agentic AI. Autonomous agent that migrates Flask to FastAPI, proven by the repo's own tests. 61.9% strict green across 21 autonomous runs." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-portage_light.svg" width="428">
+          <img alt="Portage, agentic AI. Autonomous agent that migrates Flask to FastAPI, proven by the repo's own tests. 10 of 10 on its K=5 development gates; 0 of 9 on a frozen held-out set, published side by side." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-portage_light.svg" width="428">
         </picture>
       </a>
     </td>

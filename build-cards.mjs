@@ -37,7 +37,7 @@ const HERO = {
     ]],
     ['PROOF', [
       ['0.933', ' bal. acc. CN vs Dementia  ·  0.981 AUC  ·  2,363 ADNI subjects'],
-      ['61.9%', ' strict green, 21 autonomous runs  ·  Portage agent'],
+      ['10/10', ' K=5 dev gates  ·  0/9 frozen held-out  ·  Portage agent'],
     ]],
     ['STACK', [
       ['', 'PyTorch · LangGraph · FastAPI · Postgres · pgvector · Docker · Next.js'],
@@ -56,7 +56,7 @@ const WORK = [
     metric: ['0.933', ' bal. acc.  ·  2,363 subjects  ·  ~70M'] },
   { id: 'portage', tag: 'AGENTIC AI', title: 'Portage',
     body: ['Autonomous agent that migrates Flask to', 'FastAPI, proven by the repo’s own tests.'],
-    metric: ['61.9%', ' strict green  ·  21 autonomous runs'] },
+    metric: ['10/10', ' K=5 dev gates  ·  0/9 frozen held-out'] },
   { id: 'knowledge-hub', tag: 'APPLIED AI', title: 'Knowledge Hub',
     body: ['Local-first documents: OCR, hybrid', 'retrieval, RAG answers with citations.'],
     metric: ['1', ' Postgres store  ·  no vector DB to run'] },
