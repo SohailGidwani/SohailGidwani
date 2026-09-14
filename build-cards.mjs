@@ -33,10 +33,10 @@ const HERO = {
   rows: [
     ['NOW', [
       ['Research Assistant', ' · Keck School of Medicine of USC'],
-      ['MEMOIR-VLM', ' · multimodal VLM for Alzheimer’s · in review'],
+      ['MEMOIR-VLM', ' · Alzheimer’s VLM · accepted, Frontiers in Computational Neuroscience'],
     ]],
     ['PROOF', [
-      ['0.933', ' bal. acc. CN vs Dementia  ·  0.981 AUC  ·  2,363 ADNI subjects'],
+      ['0.913', ' bal. acc. CN vs Dementia  ·  0.787 zero-shot OASIS-3  ·  2,363 ADNI subjects'],
       ['10/10', ' K=5 dev gates  ·  0/9 frozen held-out  ·  Portage agent'],
     ]],
     ['STACK', [
@@ -51,9 +51,9 @@ const HERO = {
 }
 
 const WORK = [
-  { id: 'memoir', tag: 'RESEARCH · KECK USC', title: 'MEMOIR-VLM',
+  { id: 'memoir', tag: 'RESEARCH · KECK USC · ACCEPTED', title: 'MEMOIR-VLM',
     body: ['Multimodal vision-language model for', 'Alzheimer’s classification and VQA.'],
-    metric: ['0.933', ' bal. acc.  ·  2,363 subjects  ·  ~70M'] },
+    metric: ['0.913', ' bal. acc.  ·  0.787 zero-shot OASIS-3'] },
   { id: 'portage', tag: 'AGENTIC AI', title: 'Portage',
     body: ['Autonomous agent that migrates Flask to', 'FastAPI, proven by the repo’s own tests.'],
     metric: ['10/10', ' K=5 dev gates  ·  0/9 frozen held-out'] },
@@ -69,7 +69,7 @@ const PANELS = [
   { id: 'experience', title: 'EXPERIENCE', lines: [
     ['OCT 2025 - NOW', 'Research Assistant', 'Keck School of Medicine, USC'],
     ['MAY - JUL 2025', 'Senior Software Engineer I', 'Insaito, Inc.'],
-    ['JUN 2023 - MAY 2025', 'Full Stack Developer', 'IIFL Finance Ltd'],
+    ['JUN 2023 - MAY 2025', 'Full Stack Software Developer', 'IIFL Finance Ltd'],
   ]},
   { id: 'credentials', title: 'EDUCATION  ·  WINS', lines: [
     ['2025 - 2027', 'M.S. Computer Science', 'USC · GPA 3.75 / 4.0'],

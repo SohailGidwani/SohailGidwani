@@ -13,7 +13,7 @@ const cell = (href, base, alt, w) => `    <td align="center">
     </td>`
 
 const work = [
-  ['https://sohailgidwani.app/research/memoir-vlm-alzheimers-vqa','work-memoir',"MEMOIR-VLM, research at Keck USC. Multimodal vision-language model for Alzheimer's classification and VQA. 0.933 balanced accuracy, 2,363 subjects, ~70M parameters."],
+  ['https://sohailgidwani.app/research/memoir-vlm-alzheimers-vqa','work-memoir',"MEMOIR-VLM, research at Keck USC, first-author paper accepted at Frontiers in Computational Neuroscience. Multimodal vision-language model for Alzheimer's classification and VQA. 0.913 balanced accuracy CN vs Dementia, 0.787 zero-shot balanced accuracy on OASIS-3, 2,363 ADNI subjects."],
   ['https://sohailgidwani.app/projects/portage','work-portage',"Portage, agentic AI. Autonomous agent that migrates Flask to FastAPI, proven by the repo's own tests. 10 of 10 on its K=5 development gates; 0 of 9 on a frozen held-out set, published side by side."],
   ['https://sohailgidwani.app/projects/knowledge-hub','work-knowledge-hub','Knowledge Hub, applied AI. Local-first documents: OCR, hybrid retrieval, RAG answers with citations. One Postgres store, no vector DB to run.'],
   ['https://sohailgidwani.app/projects/cot-faithfulness','work-cot','CoT Faithfulness, AI research. Does chain-of-thought drive the answer, or rationalise it after the fact? ~15,000 queries across 4 controlled experiments.'],
@@ -27,7 +27,7 @@ const links = [
   ['https://sohailgidwani.app/resume.json','link-resume','JSON Resume'],
 ]
 
-const heroAlt = "Sohail Gidwani. Agentic AI/ML Engineer, M.S. Computer Science at USC, Los Angeles. Now: Research Assistant at the Keck School of Medicine of USC, building MEMOIR-VLM, a multimodal VLM for Alzheimer's, in review. Proof: 0.933 balanced accuracy CN vs Dementia, 0.981 AUC, 2,363 ADNI subjects; on the Portage agent, 10 of 10 on its K=5 development gates and 0 of 9 on a frozen held-out set, published side by side. Stack: PyTorch, LangGraph, FastAPI, Postgres, pgvector, Docker, Next.js. Open to full-time AI/ML/LLM roles, graduating May 2027."
+const heroAlt = "Sohail Gidwani. Agentic AI/ML Engineer, M.S. Computer Science at USC, Los Angeles. Now: Research Assistant at the Keck School of Medicine of USC. MEMOIR-VLM, a multimodal VLM for Alzheimer's, first-author paper accepted at Frontiers in Computational Neuroscience. Proof: 0.913 balanced accuracy CN vs Dementia, 0.787 zero-shot balanced accuracy on OASIS-3, 2,363 ADNI subjects; on the Portage agent, 10 of 10 on its K=5 development gates and 0 of 9 on a frozen held-out set, published side by side. Stack: PyTorch, LangGraph, FastAPI, Postgres, pgvector, Docker, Next.js. Open to full-time AI/ML/LLM roles, graduating May 2027."
 
 const md = `<p align="center">
   <a href="https://sohailgidwani.app">
@@ -45,7 +45,7 @@ ${cell(...work[2], 428)}
 ${cell(...work[3], 428)}
   </tr>
   <tr>
-${cell('https://sohailgidwani.app/#experience','panel-experience','Experience. October 2025 to now: Research Assistant, Keck School of Medicine, USC. May to July 2025: Senior Software Engineer I, Insaito, Inc. June 2023 to May 2025: Full Stack Developer, IIFL Finance Ltd.', 428)}
+${cell('https://sohailgidwani.app/#experience','panel-experience','Experience. October 2025 to now: Research Assistant, Keck School of Medicine, USC. May to July 2025: Senior Software Engineer I, Insaito, Inc. June 2023 to May 2025: Full Stack Software Developer, IIFL Finance Ltd.', 428)}
 ${cell('https://sohailgidwani.app/about','panel-credentials','Education and wins. 2025 to 2027: M.S. Computer Science, USC, GPA 3.75 of 4.0. 2019 to 2023: B.E. Computer Engineering, Mumbai, CGPA 9.05 of 10. Award: Certificate of Achievement from the CTO, IIFL Finance.', 428)}
   </tr>
 </table>

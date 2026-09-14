@@ -2,7 +2,7 @@
   <a href="https://sohailgidwani.app">
     <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_dark.svg">
-          <img alt="Sohail Gidwani. Agentic AI/ML Engineer, M.S. Computer Science at USC, Los Angeles. Now: Research Assistant at the Keck School of Medicine of USC, building MEMOIR-VLM, a multimodal VLM for Alzheimer's, in review. Proof: 0.933 balanced accuracy CN vs Dementia, 0.981 AUC, 2,363 ADNI subjects; on the Portage agent, 10 of 10 on its K=5 development gates and 0 of 9 on a frozen held-out set, published side by side. Stack: PyTorch, LangGraph, FastAPI, Postgres, pgvector, Docker, Next.js. Open to full-time AI/ML/LLM roles, graduating May 2027." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_light.svg" width="880">
+          <img alt="Sohail Gidwani. Agentic AI/ML Engineer, M.S. Computer Science at USC, Los Angeles. Now: Research Assistant at the Keck School of Medicine of USC. MEMOIR-VLM, a multimodal VLM for Alzheimer's, first-author paper accepted at Frontiers in Computational Neuroscience. Proof: 0.913 balanced accuracy CN vs Dementia, 0.787 zero-shot balanced accuracy on OASIS-3, 2,363 ADNI subjects; on the Portage agent, 10 of 10 on its K=5 development gates and 0 of 9 on a frozen held-out set, published side by side. Stack: PyTorch, LangGraph, FastAPI, Postgres, pgvector, Docker, Next.js. Open to full-time AI/ML/LLM roles, graduating May 2027." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/hero_light.svg" width="880">
         </picture>
   </a>
 </p>
@@ -13,7 +13,7 @@
       <a href="https://sohailgidwani.app/research/memoir-vlm-alzheimers-vqa">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-memoir_dark.svg">
-          <img alt="MEMOIR-VLM, research at Keck USC. Multimodal vision-language model for Alzheimer's classification and VQA. 0.933 balanced accuracy, 2,363 subjects, ~70M parameters." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-memoir_light.svg" width="428">
+          <img alt="MEMOIR-VLM, research at Keck USC, first-author paper accepted at Frontiers in Computational Neuroscience. Multimodal vision-language model for Alzheimer's classification and VQA. 0.913 balanced accuracy CN vs Dementia, 0.787 zero-shot balanced accuracy on OASIS-3, 2,363 ADNI subjects." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/work-memoir_light.svg" width="428">
         </picture>
       </a>
     </td>
@@ -49,7 +49,7 @@
       <a href="https://sohailgidwani.app/#experience">
         <picture>
           <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/panel-experience_dark.svg">
-          <img alt="Experience. October 2025 to now: Research Assistant, Keck School of Medicine, USC. May to July 2025: Senior Software Engineer I, Insaito, Inc. June 2023 to May 2025: Full Stack Developer, IIFL Finance Ltd." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/panel-experience_light.svg" width="428">
+          <img alt="Experience. October 2025 to now: Research Assistant, Keck School of Medicine, USC. May to July 2025: Senior Software Engineer I, Insaito, Inc. June 2023 to May 2025: Full Stack Software Developer, IIFL Finance Ltd." src="https://raw.githubusercontent.com/SohailGidwani/SohailGidwani/main/panel-experience_light.svg" width="428">
         </picture>
       </a>
     </td>
