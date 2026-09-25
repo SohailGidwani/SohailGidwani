@@ -92,5 +92,7 @@
       node build-cards.mjs
 
   Fonts are embedded as base64 woff2, subset to only the glyphs each card draws:
-  Syne 800 for the name (matching the portfolio hero), JetBrains Mono elsewhere.
+  Funnel Display 800 for the name and Martian Mono Condensed elsewhere, both
+  matching the portfolio. Colours follow the portfolio too: ultramarine accent
+  on the light cards, teal-blue on the dark ones.
 -->

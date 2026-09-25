@@ -16,15 +16,21 @@ import { execFileSync } from 'child_process'
  *  - Nothing external may be referenced, so both fonts are embedded as base64
  *    woff2, subset to only the glyphs each one actually draws.
  *
- * Syne 800 is used for the name only, matching .font-display on the portfolio
- * hero. Everything else is JetBrains Mono, matching the portfolio's mono.
+ * Funnel Display 800 is used for the name only, matching the portfolio hero.
+ * Everything else is Martian Mono Condensed, matching the portfolio's mono
+ * (Martian Mono at its 75% width). Its characters are 0.6em wide, the same as
+ * the JetBrains Mono these cards were laid out in, so every position holds.
+ *
+ * Colours are the portfolio's: cool neutrals, and an accent that changes with
+ * the theme the way the site does, ultramarine on light and teal-blue on dark.
+ * `onAccent` is the text colour on a solid accent fill: white on ultramarine,
+ * near-black on teal (white on teal fails contrast).
  */
 
 const THEMES = {
-  light: { bg: '#f7f6f3', fg: '#111110', muted: '#73726d', border: '#dddbd4', dot: '#111110', term: '#edecea' },
-  dark:  { bg: '#0f0f0e', fg: '#f0efe9', muted: '#8a8980', border: '#252420', dot: '#f0efe9', term: '#1a1918' },
+  light: { bg: '#f6f7f9', fg: '#101114', muted: '#686c75', border: '#d8dbe1', dot: '#101114', term: '#ebedf0', accent: '#1938d7', onAccent: '#ffffff' },
+  dark:  { bg: '#07080b', fg: '#eef0f4', muted: '#878b95', border: '#1a1c22', dot: '#eef0f4', term: '#111318', accent: '#35b8d4', onAccent: '#07080b' },
 }
-const ACCENT = '#b85c0e'
 
 const NAME = 'SOHAIL GIDWANI'
 
@@ -99,6 +105,15 @@ const LINKS = [
   { id: 'resume', label: 'RESUME.JSON' },
 ]
 
+/**
+ * The typing cursor, drawn rather than typed: Martian Mono has no block glyph
+ * (U+2588), and a missing glyph silently falls back to a system font. The
+ * face is monospaced at 0.6em per character, so where a cursor sits after a
+ * run of text is arithmetic: x is its left edge, y the text baseline.
+ */
+const cursor = (x, y, size, t) =>
+  `<rect class="cursor" x="${x.toFixed(1)}" y="${(y - size * 0.78).toFixed(1)}" width="${(size * 0.6).toFixed(1)}" height="${(size * 0.92).toFixed(1)}" fill="${t.accent}"/>`
+
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 /** Attribute values additionally need quotes escaped: an alt string containing
  *  JSON silently produced invalid XML and a broken card. */
@@ -114,7 +129,7 @@ function subset(src, chars, out) {
 }
 
 const monoChars = (() => {
-  const s = new Set(' →█')
+  const s = new Set(' →')
   const eat = (x) => [...String(x)].forEach((c) => s.add(c))
   eat(HERO.sub); eat(HERO.footL); eat(HERO.footR)
   HERO.rows.forEach(([l, vs]) => { eat(l); vs.forEach(([a, b]) => { eat(a); eat(b) }) })
@@ -125,17 +140,17 @@ const monoChars = (() => {
   return [...s].sort().join('')
 })()
 
-const MONO = { 400: subset('jbm-400.woff2', monoChars, 'sub-mono-400.woff2'),
-               700: subset('jbm-700.woff2', monoChars, 'sub-mono-700.woff2') }
-const SYNE = subset('syne-800.woff2', NAME, 'sub-syne-800.woff2')
+const MONO = { 400: subset('martian-mono-400.ttf', monoChars, 'sub-mono-400.woff2'),
+               700: subset('martian-mono-700.ttf', monoChars, 'sub-mono-700.woff2') }
+const DISPLAY = subset('funnel-display-800.ttf', NAME, 'sub-display-800.woff2')
 const linkChars = [...new Set(LINKS.map((l) => l.label).join(''))].sort().join('')
-const LINKFONT = subset('jbm-700.woff2', linkChars, 'sub-link-700.woff2')
+const LINKFONT = subset('martian-mono-700.ttf', linkChars, 'sub-link-700.woff2')
 
-const fontCss = (withSyne = false) => `
-@font-face{font-family:'JBM';font-weight:400;font-display:block;src:url(data:font/woff2;base64,${MONO[400]}) format('woff2')}
-@font-face{font-family:'JBM';font-weight:700;font-display:block;src:url(data:font/woff2;base64,${MONO[700]}) format('woff2')}${withSyne ? `
-@font-face{font-family:'Syne';font-weight:800;font-display:block;src:url(data:font/woff2;base64,${SYNE}) format('woff2')}` : ''}
-.s{font-family:'JBM',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+const fontCss = (withDisplay = false) => `
+@font-face{font-family:'Martian';font-weight:400;font-display:block;src:url(data:font/woff2;base64,${MONO[400]}) format('woff2')}
+@font-face{font-family:'Martian';font-weight:700;font-display:block;src:url(data:font/woff2;base64,${MONO[700]}) format('woff2')}${withDisplay ? `
+@font-face{font-family:'Funnel';font-weight:800;font-display:block;src:url(data:font/woff2;base64,${DISPLAY}) format('woff2')}` : ''}
+.s{font-family:'Martian',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 text{white-space:pre}`
 
 const motionCss = `
@@ -150,8 +165,8 @@ const motionCss = `
   .tl{animation:none;clip-path:none;opacity:1}
 }`
 
-const shell = (w, h, t, label, body, css = '', syne = false) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${escAttr(label)}">
-<style>${fontCss(syne)}
+const shell = (w, h, t, label, body, css = '', display = false) => `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${escAttr(label)}">
+<style>${fontCss(display)}
 .dotgrid{fill:${t.dot};opacity:.05}${css}${motionCss}
 </style>
 <defs><pattern id="dg" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r="1.1" class="dotgrid"/></pattern></defs>
@@ -186,17 +201,17 @@ function hero(themeName) {
   const H = footY + 26
 
   const body = `  <text class="name a" style="animation-delay:0s" x="${MID}" y="92" text-anchor="middle">${esc(NAME)}</text>
-  <rect class="rule" style="transform-origin:${MID}px 122px" x="${PAD}" y="122" width="${W - PAD * 2}" height="2.5" fill="${ACCENT}"/>
+  <rect class="rule" style="transform-origin:${MID}px 122px" x="${PAD}" y="122" width="${W - PAD * 2}" height="2.5" fill="${t.accent}"/>
   <text class="sub a" style="animation-delay:.16s" x="${MID}" y="154" text-anchor="middle">${esc(HERO.sub)}</text>
 ${out.join('\n')}
   <line class="a" style="animation-delay:${next()}s" x1="${PAD}" y1="${footY - 22}" x2="${W - PAD}" y2="${footY - 22}" stroke="${t.border}" stroke-width="1"/>
-  <text class="foot a" style="animation-delay:${next()}s" x="${PAD}" y="${footY}">${esc(HERO.footL)}<tspan class="cursor" fill="${ACCENT}"> █</tspan></text>
+  <g class="a" style="animation-delay:${next()}s"><text class="foot" x="${PAD}" y="${footY}">${esc(HERO.footL)}</text>${cursor(PAD + (HERO.footL.length + 1) * (11 * 0.6 + 2.2), footY, 11, t)}</g>
   <text class="foot a" style="animation-delay:${next()}s" x="${W - PAD}" y="${footY}" text-anchor="end">${esc(HERO.footR)}</text>`
 
   const css = `
-.name{font-family:'Syne',ui-sans-serif,system-ui,sans-serif;font-size:52px;font-weight:800;letter-spacing:-1.5px;fill:${t.fg}}
+.name{font-family:'Funnel',ui-sans-serif,system-ui,sans-serif;font-size:52px;font-weight:800;letter-spacing:-1.5px;fill:${t.fg}}
 .sub{font-size:12px;letter-spacing:2.4px;fill:${t.muted}}
-.lbl{font-size:11px;letter-spacing:2.4px;fill:${ACCENT}}
+.lbl{font-size:11px;letter-spacing:2.4px;fill:${t.accent}}
 .val{font-size:13.5px;fill:${t.muted}}
 .lead{fill:${t.fg};font-weight:700}
 .rest{fill:${t.muted}}
@@ -218,13 +233,13 @@ function work(spec, themeName) {
   <text class="met a" style="animation-delay:.38s" x="${PAD}" y="166"><tspan class="lead">${esc(spec.metric[0])}</tspan><tspan class="rest">${esc(spec.metric[1])}</tspan></text>
   <text class="arw a" style="animation-delay:.44s" x="${W - PAD}" y="166" text-anchor="end">→</text>`
   const css = `
-.tag{font-size:10px;letter-spacing:2.2px;fill:${ACCENT}}
+.tag{font-size:10px;letter-spacing:2.2px;fill:${t.accent}}
 .ttl{font-size:23px;font-weight:700;letter-spacing:-.6px;fill:${t.fg}}
 .bdy{font-size:12px;fill:${t.muted}}
 .met{font-size:11.5px}
 .lead{fill:${t.fg};font-weight:700}
 .rest{fill:${t.muted}}
-.arw{font-size:15px;fill:${ACCENT}}`
+.arw{font-size:15px;fill:${t.accent}}`
   const alt = `${spec.title}, ${spec.tag}. ${spec.body.join(' ')} ${spec.metric[0]}${spec.metric[1]}`
   return shell(W, H, t, alt, body, css)
 }
@@ -248,8 +263,8 @@ function panel(spec, themeName) {
   <line class="a" style="animation-delay:.08s" x1="${PAD}" y1="52" x2="${W - PAD}" y2="52" stroke="${t.border}" stroke-width="1"/>
 ${out.join('\n')}`
   const css = `
-.tag{font-size:10px;letter-spacing:2.2px;fill:${ACCENT}}
-.when{font-size:10px;letter-spacing:1.6px;fill:${ACCENT}}
+.tag{font-size:10px;letter-spacing:2.2px;fill:${t.accent}}
+.when{font-size:10px;letter-spacing:1.6px;fill:${t.accent}}
 .what{font-size:14px;font-weight:700;fill:${t.fg}}
 .where{font-size:11.5px;fill:${t.muted}}`
   const alt = `${spec.title}. ` + spec.lines.map(([a, b, c]) => `${a}: ${b}, ${c}`).join('. ')
@@ -274,18 +289,18 @@ function terminal(themeName) {
   }).filter(Boolean)
 
   const body = `  <rect x="${PAD}" y="${PAD}" width="${W - PAD * 2}" height="${H - PAD * 2}" rx="4" fill="${t.term}" stroke="${t.border}" stroke-width="1"/>
-  <circle cx="${PAD + 18}" cy="${PAD + 18}" r="4.5" fill="${ACCENT}" opacity=".85"/>
+  <circle cx="${PAD + 18}" cy="${PAD + 18}" r="4.5" fill="${t.accent}" opacity=".85"/>
   <circle cx="${PAD + 34}" cy="${PAD + 18}" r="4.5" fill="${t.muted}" opacity=".4"/>
   <circle cx="${PAD + 50}" cy="${PAD + 18}" r="4.5" fill="${t.muted}" opacity=".4"/>
   <text class="cap" x="${W - PAD - 16}" y="${PAD + 22}" text-anchor="end">AGENT-READABLE  ·  LIVE</text>
   <line x1="${PAD}" y1="${PAD + 36}" x2="${W - PAD}" y2="${PAD + 36}" stroke="${t.border}" stroke-width="1"/>
 ${lines.join('\n')}
-  <text class="tl ln" style="animation-delay:${(0.5 + TERM.length * 0.34).toFixed(2)}s" x="${PAD + 16}" y="${92 + TERM.length * 20}"><tspan class="pre">$ </tspan><tspan class="cursor" fill="${ACCENT}">█</tspan></text>`
+  <g class="tl" style="animation-delay:${(0.5 + TERM.length * 0.34).toFixed(2)}s"><text class="ln" x="${PAD + 16}" y="${92 + TERM.length * 20}"><tspan class="pre">$ </tspan></text>${cursor(PAD + 16 + 2 * 12.5 * 0.6, 92 + TERM.length * 20, 12.5, t)}</g>`
 
   const css = `
 .cap{font-size:9.5px;letter-spacing:2px;fill:${t.muted}}
 .ln{font-size:12.5px}
-.pre{fill:${ACCENT};font-weight:700}
+.pre{fill:${t.accent};font-weight:700}
 .tx{fill:${t.muted}}
 /* One shared duration keeps the stagger stable across every repeat; the
    per-line delay is what makes it read as typing. */
@@ -305,16 +320,16 @@ ${lines.join('\n')}
 function link(spec, themeName) {
   const t = THEMES[themeName]
   const W = 138, H = 46
-  const fill = spec.primary ? ACCENT : t.bg
-  const stroke = spec.primary ? ACCENT : t.border
-  const label = spec.primary ? '#fff' : t.muted
+  const fill = spec.primary ? t.accent : t.bg
+  const stroke = spec.primary ? t.accent : t.border
+  const label = spec.primary ? t.onAccent : t.muted
   const body = `  <text x="${W / 2}" y="${H / 2 + 4}" text-anchor="middle" class="lk">${esc(spec.label)}</text>`
   const css = `
 .lk{font-size:10px;letter-spacing:1.6px;font-weight:700;fill:${label}}`
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${escAttr(spec.label)}">
 <style>
-@font-face{font-family:'JBM';font-weight:700;font-display:block;src:url(data:font/woff2;base64,${LINKFONT}) format('woff2')}
-.s{font-family:'JBM',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+@font-face{font-family:'Martian';font-weight:700;font-display:block;src:url(data:font/woff2;base64,${LINKFONT}) format('woff2')}
+.s{font-family:'Martian',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 text{white-space:pre}${css}
 </style>
 <rect x=".75" y=".75" width="${W - 1.5}" height="${H - 1.5}" rx="5" fill="${fill}" stroke="${stroke}" stroke-width="1.5"/>
