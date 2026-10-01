@@ -28,18 +28,20 @@ import { execFileSync } from 'child_process'
  */
 
 const THEMES = {
-  light: { bg: '#f6f7f9', fg: '#101114', muted: '#686c75', border: '#d8dbe1', dot: '#101114', term: '#ebedf0', accent: '#1938d7', onAccent: '#ffffff' },
+  light: { bg: '#f6f7f9', fg: '#101114', muted: '#60646d', border: '#d8dbe1', dot: '#101114', term: '#ebedf0', accent: '#1938d7', onAccent: '#ffffff' },
   dark:  { bg: '#07080b', fg: '#eef0f4', muted: '#878b95', border: '#1a1c22', dot: '#eef0f4', term: '#111318', accent: '#35b8d4', onAccent: '#07080b' },
 }
 
-const NAME = 'SOHAIL GIDWANI'
+// Set as the portfolio sets it: only the S and the G capital, ended by the
+// accent square (see nameWithStop).
+const NAME = 'Sohail Gidwani'
 
 const HERO = {
   sub: 'AGENTIC AI/ML ENGINEER   ·   M.S. COMPUTER SCIENCE @ USC   ·   LOS ANGELES',
   rows: [
     ['NOW', [
       ['Research Assistant', ' · Keck School of Medicine of USC'],
-      ['MEMOIR-VLM', ' · Alzheimer’s VLM · accepted, Frontiers in Computational Neuroscience'],
+      ['MEMOIR-VLM', ' · Alzheimer’s VLM · published, Frontiers in Computational Neuroscience'],
     ]],
     ['PROOF', [
       ['0.913', ' bal. acc. CN vs Dementia  ·  0.787 zero-shot OASIS-3  ·  2,363 ADNI subjects'],
@@ -57,7 +59,7 @@ const HERO = {
 }
 
 const WORK = [
-  { id: 'memoir', tag: 'RESEARCH · KECK USC · ACCEPTED', title: 'MEMOIR-VLM',
+  { id: 'memoir', tag: 'RESEARCH · KECK USC · PUBLISHED', title: 'MEMOIR-VLM',
     body: ['Multimodal vision-language model for', 'Alzheimer’s classification and VQA.'],
     metric: ['0.913', ' bal. acc.  ·  0.787 zero-shot OASIS-3'] },
   { id: 'portage', tag: 'AGENTIC AI', title: 'Portage',
@@ -98,8 +100,10 @@ const TERM = [
 
 const LINKS = [
   { id: 'projects', label: 'ALL PROJECTS', primary: true },
-  { id: 'email', label: 'EMAIL' },
+  { id: 'paper', label: 'PAPER' },
+  { id: 'scholar', label: 'SCHOLAR' },
   { id: 'linkedin', label: 'LINKEDIN' },
+  { id: 'email', label: 'EMAIL' },
   { id: 'mcp', label: 'MCP' },
   { id: 'llms', label: 'LLMS.TXT' },
   { id: 'resume', label: 'RESUME.JSON' },
@@ -144,6 +148,31 @@ const MONO = { 400: subset('martian-mono-400.ttf', monoChars, 'sub-mono-400.woff
                700: subset('martian-mono-700.ttf', monoChars, 'sub-mono-700.woff2') }
 const DISPLAY = subset('funnel-display-800.ttf', NAME, 'sub-display-800.woff2')
 const linkChars = [...new Set(LINKS.map((l) => l.label).join(''))].sort().join('')
+
+/**
+ * The drawn advance of the name, in em, from the font's own metrics. The
+ * subset carries no layout features, so there is no kerning to add and this
+ * is exactly what the browser lays out (checked against Chrome: 728.33 vs
+ * 728.34 px at 100px).
+ */
+const NAME_EM = parseFloat(execFileSync('python3', ['-c',
+  "import sys\nfrom fontTools.ttLib import TTFont\nf=TTFont(sys.argv[1]);c=f.getBestCmap();h=f['hmtx']\nprint(sum(h[c[ord(ch)]][0] for ch in sys.argv[2])/f['head'].unitsPerEm)",
+  'funnel-display-800.ttf', NAME]).toString())
+
+/**
+ * The name as the portfolio hero sets it: tracked -0.03em, with the accent
+ * square as its full stop, 0.17em on the baseline 0.06em after the last
+ * letter. The square hangs past the line, so the letters themselves are what
+ * is centred, as on the site.
+ */
+function nameWithStop(cx, baseline, size, accent, cls, extra = '') {
+  const track = -0.03 * size
+  // Letter-spacing follows every glyph, the last one included.
+  const width = NAME_EM * size + track * NAME.length
+  const x = cx - width / 2
+  const sq = 0.17 * size
+  return `<text class="${cls}"${extra} x="${x.toFixed(2)}" y="${baseline}" style="letter-spacing:${track.toFixed(2)}px">${esc(NAME)}</text><rect x="${(x + width + 0.06 * size).toFixed(2)}" y="${(baseline - sq).toFixed(2)}" width="${sq.toFixed(2)}" height="${sq.toFixed(2)}" rx="${(0.045 * size).toFixed(2)}" fill="${accent}"/>`
+}
 const LINKFONT = subset('martian-mono-700.ttf', linkChars, 'sub-link-700.woff2')
 
 const fontCss = (withDisplay = false) => `
@@ -200,7 +229,7 @@ function hero(themeName) {
   const footY = y - GAP + 44
   const H = footY + 26
 
-  const body = `  <text class="name a" style="animation-delay:0s" x="${MID}" y="92" text-anchor="middle">${esc(NAME)}</text>
+  const body = `  <g class="a" style="animation-delay:0s">${nameWithStop(MID, 92, 58, t.accent, 'name')}</g>
   <rect class="rule" style="transform-origin:${MID}px 122px" x="${PAD}" y="122" width="${W - PAD * 2}" height="2.5" fill="${t.accent}"/>
   <text class="sub a" style="animation-delay:.16s" x="${MID}" y="154" text-anchor="middle">${esc(HERO.sub)}</text>
 ${out.join('\n')}
@@ -209,7 +238,7 @@ ${out.join('\n')}
   <text class="foot a" style="animation-delay:${next()}s" x="${W - PAD}" y="${footY}" text-anchor="end">${esc(HERO.footR)}</text>`
 
   const css = `
-.name{font-family:'Funnel',ui-sans-serif,system-ui,sans-serif;font-size:52px;font-weight:800;letter-spacing:-1.5px;fill:${t.fg}}
+.name{font-family:'Funnel',ui-sans-serif,system-ui,sans-serif;font-size:58px;font-weight:800;fill:${t.fg}}
 .sub{font-size:12px;letter-spacing:2.4px;fill:${t.muted}}
 .lbl{font-size:11px;letter-spacing:2.4px;fill:${t.accent}}
 .val{font-size:13.5px;fill:${t.muted}}

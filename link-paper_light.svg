@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="138" height="46" viewBox="0 0 138 46" role="img" aria-label="EMAIL">
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="46" viewBox="0 0 138 46" role="img" aria-label="PAPER">
 <style>
 @font-face{font-family:'Martian';font-weight:700;font-display:block;src:url(data:font/woff2;base64,d09GMgABAAAAAAVgAA8AAAAACnQAAAUIAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGi4bIBwqBmA/U1RBVEAAZBEICokghwwBNgIkAywLLAAEIAWEXAcgGzEIUVRxGil+JMbgHrrEiRJXZje0rLaylkUc+YE38Tzvfuh9+SnwgEihmkKQAOgqfJXcmQZSkyyBbNXGOj/h6b9rOt01QybdhHJimhH4INH/nP795/9yemf3sgKaH5uM0b+7xho6tu0JlGBAbZq+MRzT8izQ3udvwJVVXBRP+dbkMnjDgmFA0SOq6DUghgyLUVMhMxhBgkEL2EA7dydkgLYKDSAYtIorUVN/urfOdzSBWStqfi3Hy3MdZaIcAw6w8TlDlRpQhgyUvURadiL+/3gpLLFETjfZ/EHd7l+jvBQ+dwmwBCOiX8EMIqwgGr/UUYPC+NWaDkRUUyDIoANAhPSX56CgwwyMYAaxo8AU+hgsIcOLlCJTTmueKYiR9t321ytHHG4v2vP2VBihSGMMZaZN1wHzQI6CvAdUQJE16WUcLbquhIjrrwsGdIZPcbPqYJqanC47OqvDinU8tTlOQvrZXlyEC7IQC6XjbqGht8n4mzcz8a1beNwNGHKTjL+dTW6ggWgVAzDkBs5K09HQWxgPYUGCwFgtSSLCEE3MYKZHxDsQC5yQhc6PCAw5uh52HDESxIqH3LjRX5/A5uWTnFxUiSVouSQ/JR/n4DycK0o7C0neXEVRSqKOVKHK8hKFhDLCQWfHIiYg15FrpaUoySO5VWVn9sKDDxMcesg565asZMHYsmvIEc9Bp8xu+biWsVlEAyM9wLWfiF+FAWncEhW/QCQ/j2RmkuxskpOLs7JwRobKgLn2cspdnXxd+QSDmgne7xalLwI/btTQizdvjbgwNqleCBrBlM+UJMqjXH3kgyZM8BykcpTybPRMcVHw0JpwUNH7c2aePHcOjjBHuVAVFdo2eEhoa5QK0un5afa7vkz6ssdsGqjoWmGZsDaMC1sWBqpFq16sWvQDzghsuaTG4KDW1NZV1b7rXVz2+47mlu33SglqawkGjeV0JV2pWjl078J1O6avGw/9dO0wrUXgTK8olnPy5WfpWEu21VA2cap8ouF6piUo6e+2GZwkJ3g0hMCDGzdiQfpx44z+1s1E/NjZPopBEyagxoetCzz9kdodzLckxvIN3UGp8V5nEqRKz837SxPAn35N7Q1SNyfGqKt7/VNjQnfNz1m7MqfmxF6FWipVK2Lg8r399xwdl7rbSHdF6BeZlfSVJQY3NQUnJjaGBLehlNk7xY6uT91tZacE/WKz4t7ShMDmxuD4+Ab/kDpRLNwZtn+RzaL9w0D0kq61CJPxHlKpoDZe5jhy6NhBg2jwSHAbMWLKvM2Z/zUyOITHQSsnzxs+Ykv03d5MAxwQc5cH9vMX+HAD6T781DzvJ0ACCMKrYyU/ise2/e9nukn4/PrzTPj+YsQ97/+lzKtHIL0KCL8kffnRgm11D3FKTTlGxZzimppO9b9cpennTMkaz583a56sgeeCmZJoOUxDUNUZ55AJnlMH8IAAYoMNoOj3AXT2egKqrXEFPealiN1rY3o4wnDugxjMw6Z+4Q0zaFqO2KFZi15talWr0YFSUVw5qIw0Wjk+Uak2HWqVavKBZk2auSNFmw/VqVQu4OB14rgazdq0o1yFYRjfol0gOblqtW2/7lRGplyzRnKVutRq0Hi/SDu5xtCtmxaVwPUVkBjUV+IBtWYNPqQkozgHgiRJDr0iBclJfCWvk2LdFOho0GcxxNtQ1TY2UU311uHLVvmlYIJeq0JHpTET4yRay0YgAAA=) format('woff2')}
 .s{font-family:'Martian',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 text{white-space:pre}
-.lk{font-size:10px;letter-spacing:1.6px;font-weight:700;fill:#878b95}
+.lk{font-size:10px;letter-spacing:1.6px;font-weight:700;fill:#60646d}
 </style>
-<rect x=".75" y=".75" width="136.5" height="44.5" rx="5" fill="#07080b" stroke="#1a1c22" stroke-width="1.5"/>
+<rect x=".75" y=".75" width="136.5" height="44.5" rx="5" fill="#f6f7f9" stroke="#d8dbe1" stroke-width="1.5"/>
 <g class="s">
-  <text x="69" y="27" text-anchor="middle" class="lk">EMAIL</text>
+  <text x="69" y="27" text-anchor="middle" class="lk">PAPER</text>
 </g>
 </svg>

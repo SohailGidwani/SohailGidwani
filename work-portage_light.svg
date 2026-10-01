@@ -7,10 +7,10 @@ text{white-space:pre}
 .dotgrid{fill:#101114;opacity:.05}
 .tag{font-size:10px;letter-spacing:2.2px;fill:#1938d7}
 .ttl{font-size:23px;font-weight:700;letter-spacing:-.6px;fill:#101114}
-.bdy{font-size:12px;fill:#686c75}
+.bdy{font-size:12px;fill:#60646d}
 .met{font-size:11.5px}
 .lead{fill:#101114;font-weight:700}
-.rest{fill:#686c75}
+.rest{fill:#60646d}
 .arw{font-size:15px;fill:#1938d7}
 .a{opacity:0;animation:rise .5s cubic-bezier(.25,1,.5,1) both}
 @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}

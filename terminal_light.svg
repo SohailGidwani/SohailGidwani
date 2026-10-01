@@ -5,10 +5,10 @@
 .s{font-family:'Martian',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 text{white-space:pre}
 .dotgrid{fill:#101114;opacity:.05}
-.cap{font-size:9.5px;letter-spacing:2px;fill:#686c75}
+.cap{font-size:9.5px;letter-spacing:2px;fill:#60646d}
 .ln{font-size:12.5px}
 .pre{fill:#1938d7;font-weight:700}
-.tx{fill:#686c75}
+.tx{fill:#60646d}
 /* One shared duration keeps the stagger stable across every repeat; the
    per-line delay is what makes it read as typing. */
 .tl{clip-path:inset(0 100% 0 0);animation:type 9s steps(48,end) infinite}
@@ -37,8 +37,8 @@ text{white-space:pre}
 <g class="s">
   <rect x="30" y="30" width="820" height="240" rx="4" fill="#ebedf0" stroke="#d8dbe1" stroke-width="1"/>
   <circle cx="48" cy="48" r="4.5" fill="#1938d7" opacity=".85"/>
-  <circle cx="64" cy="48" r="4.5" fill="#686c75" opacity=".4"/>
-  <circle cx="80" cy="48" r="4.5" fill="#686c75" opacity=".4"/>
+  <circle cx="64" cy="48" r="4.5" fill="#60646d" opacity=".4"/>
+  <circle cx="80" cy="48" r="4.5" fill="#60646d" opacity=".4"/>
   <text class="cap" x="834" y="52" text-anchor="end">AGENT-READABLE  ·  LIVE</text>
   <line x1="30" y1="66" x2="850" y2="66" stroke="#d8dbe1" stroke-width="1"/>
   <text class="tl ln" style="animation-delay:0.50s" x="46" y="92"><tspan class="pre">$ </tspan><tspan class="tx">curl -s sohailgidwani.app/api/mcp \</tspan></text>

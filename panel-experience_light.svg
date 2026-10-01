@@ -8,7 +8,7 @@ text{white-space:pre}
 .tag{font-size:10px;letter-spacing:2.2px;fill:#1938d7}
 .when{font-size:10px;letter-spacing:1.6px;fill:#1938d7}
 .what{font-size:14px;font-weight:700;fill:#101114}
-.where{font-size:11.5px;fill:#686c75}
+.where{font-size:11.5px;fill:#60646d}
 .a{opacity:0;animation:rise .5s cubic-bezier(.25,1,.5,1) both}
 @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 .rule{animation:draw .55s cubic-bezier(.32,.72,0,1) .1s both}
